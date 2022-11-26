@@ -120,13 +120,13 @@ $(document).ready(function () {
 	// Initiate typed.js text effect (done custom for each typed text effect)
 	$(".animated-text-effect").typed({
 		// Enter your texts here, these texts are applied to light homepages
-		strings: ["Hong Kong fresh fruit shipping and an exclusive digital experience.^", "Hong Kong fresh fruit shipping and an exclusive digital experience.^", "Hong Kong fresh fruit shipping and an exclusive digital experience.^"],
+		strings: ["Hong Kong fresh fruit shipping^", "and an exclusive digital experience.^"],
 		contentType: "text",
 		typeSpeed: 30,
 		loop: true,
 		backDelay: 1200,
 		showCursor: true,
-		startDelay: 3200, // PRELOADER -- comment-out this line if you stop using page preloader
+		startDelay: 100, // PRELOADER -- comment-out this line if you stop using page preloader
 		cursorChar: "|"
 	});
 

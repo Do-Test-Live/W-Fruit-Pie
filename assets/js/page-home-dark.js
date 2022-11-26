@@ -120,7 +120,7 @@ $(document).ready(function () {
 	// Initiate typed.js text effect (done custom for each typed text effect)
 	$(".animated-text-effect").typed({
 		// Enter your texts here, these texts are applied to dark homepages
-		strings: ["Hong Kong fresh fruit shipping and an exclusive digital experience.^", "Hong Kong fresh fruit shipping and an exclusive digital experience.^", "Hong Kong fresh fruit shipping and an exclusive digital experience.^"],
+		strings: ["Hong Kong fresh fruit^", "Hong Kong fresh fruit^", "Hong Kong fresh fruit^"],
 		contentType: "text",
 		typeSpeed: 30,
 		loop: true,

@@ -1,0 +1,26 @@
+@font-face {
+    font-family: Nunito-Bold;
+    src: url('../fonts/Nunito-Bold.otf');
+}
+
+@font-face {
+    font-family: Nunito-Regular;
+    src: url('../fonts/Nunito-Regular.otf');
+}
+
+.title{
+    font-family: Nunito-Regular;
+    font-size: 40px;
+}
+
+.content{
+    font-family: Nunito-Regular;
+    font-size: 20px;
+    text-align: justify;
+}
+
+@media all and (max-width: 767px) {
+    .title{
+        font-size: 28px;
+    }
+}
